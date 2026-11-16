@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: da3c831caffbde4498fbb8624911aa6f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240130
+  packageName: F1 Mobile Garage Workshop
+  packageVersion: 1.0
+  assetPath: Assets/gerage/Materials/glass.mat
+  uploadId: 545836

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 52307b075f1ab9b4b87bdcbd0ed6cf16
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240130
+  packageName: F1 Mobile Garage Workshop
+  packageVersion: 1.0
+  assetPath: Assets/gerage/Materials/gerage.mat
+  uploadId: 545836
