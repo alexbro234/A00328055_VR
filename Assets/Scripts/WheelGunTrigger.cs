@@ -7,13 +7,19 @@ public class WheelGunTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.GetComponentInParent<WheelGunMarker>() != null)
+        // Check whether the object touching the zone is the wheel gun
+        WheelGunMarker gun =
+            other.GetComponentInParent<WheelGunMarker>();
+
+        if (gun != null)
         {
-            manager.TightenWheel();
+            Debug.Log("Wheel gun touched the wheel!");
+
+            // Tell the game manager to tighten the wheel
+            if (manager != null)
+            {
+                manager.TightenWheel();
+            }
         }
     }
-}
-
-public class WheelGunMarker : MonoBehaviour
-{
 }
