@@ -5126,6 +5126,67 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!1001 &357197051
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8135023674665499069, guid: 58d0a4ac86f2348deb02f3880c71378e, type: 3}
+      propertyPath: m_Name
+      value: XR Interaction Simulator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8135023674665499069, guid: 58d0a4ac86f2348deb02f3880c71378e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8518324294302271954, guid: 58d0a4ac86f2348deb02f3880c71378e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.61495
+      objectReference: {fileID: 0}
+    - target: {fileID: 8518324294302271954, guid: 58d0a4ac86f2348deb02f3880c71378e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.45069
+      objectReference: {fileID: 0}
+    - target: {fileID: 8518324294302271954, guid: 58d0a4ac86f2348deb02f3880c71378e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.61495
+      objectReference: {fileID: 0}
+    - target: {fileID: 8518324294302271954, guid: 58d0a4ac86f2348deb02f3880c71378e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8518324294302271954, guid: 58d0a4ac86f2348deb02f3880c71378e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8518324294302271954, guid: 58d0a4ac86f2348deb02f3880c71378e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8518324294302271954, guid: 58d0a4ac86f2348deb02f3880c71378e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8518324294302271954, guid: 58d0a4ac86f2348deb02f3880c71378e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8518324294302271954, guid: 58d0a4ac86f2348deb02f3880c71378e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8518324294302271954, guid: 58d0a4ac86f2348deb02f3880c71378e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 58d0a4ac86f2348deb02f3880c71378e, type: 3}
 --- !u!1 &359151860
 GameObject:
   m_ObjectHideFlags: 0
@@ -13330,6 +13391,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PitStopManager
   startingTime: 60
   releaseButton: {fileID: 316823495}
+  victoryCarSpin: {fileID: 1611107130}
   timerText: {fileID: 2090736719}
   statusText: {fileID: 1514849346}
   audioSource: {fileID: 116913804}
@@ -17493,6 +17555,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2564449306508839355, guid: 3d391155c0f825d4a979a413e7c72107, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1611107127}
+    - targetCorrespondingSourceObject: {fileID: 2564449306508839355, guid: 3d391155c0f825d4a979a413e7c72107, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1611107130}
   m_SourcePrefab: {fileID: 100100000, guid: 3d391155c0f825d4a979a413e7c72107, type: 3}
 --- !u!4 &1611107124 stripped
 Transform:
@@ -17520,6 +17585,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.33350945, y: 1.0232046, z: 5.0330334}
   m_Center: {x: 0.0043182373, y: 0.6046519, z: -0.14300895}
+--- !u!114 &1611107130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032617485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97db82b9a0dcff0468ae46879285de15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VictoryCarSpin
+  spinSpeed: 180
 --- !u!1 &1636698412
 GameObject:
   m_ObjectHideFlags: 0
@@ -24819,3 +24897,4 @@ SceneRoots:
   - {fileID: 1190918190}
   - {fileID: 201592965}
   - {fileID: 1611107123}
+  - {fileID: 357197051}
