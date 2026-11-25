@@ -311,7 +311,7 @@ GameObject:
   - component: {fileID: 15590305}
   - component: {fileID: 15590304}
   m_Layer: 5
-  m_Name: Welcome_back
+  m_Name: Timer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23861,7 +23861,7 @@ GameObject:
   - component: {fileID: 2090736720}
   - component: {fileID: 2090736719}
   m_Layer: 5
-  m_Name: Wlecome_Text
+  m_Name: TimerText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
